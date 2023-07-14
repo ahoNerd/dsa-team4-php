@@ -460,9 +460,11 @@ include("../Functions/functions.php");
             <div class='col col-12 col-sm-12 col-md-4 col-xl-4 col-lg-4'>
                 <div class='card pb-1 pl-1 pr-1 pt-0' style='height:542px'>
                     <br>
-                    <div class='mt-0'><b>
-                        <h4><img src='iconsmall.png' style='width: 28px; margin-bottom:  10px;'> $name
-                        </b></h4>
+                    <div class='mt-0'>
+                        <h4>
+                            <img src='iconsmall.png' style='width: 28px; margin-bottom:  10px;'> 
+                            <b>$name</b>
+                        </h4>
                     </div>
                     <a href='../BuyerPortal2/ProductDetails.php?id=$product_id'>
                         <img class='card-img-top' src='../Admin/product_images/Coffee.jpg' alt='Card image cap' height='300px'>
@@ -500,40 +502,9 @@ include("../Functions/functions.php");
     </div>            
     <br><br>
 
-    <div>
-    <section id="footer" class="myfooter">
-               <div class="container">
-                    <div class="row text-center text-xs-center text-sm-left text-md-left">
-                         <div class="col aligncenter">
-                              <br>
-                              <h5>Payment Option</h5>
-                              <img src="../Images/Website/paytm1.jpg" alt="paytm">
-                              <img src="../Images/Website/cod.jpg" alt="paytm" style="height:37px">
-                         </div>
-                    </div>
-
-                    <div class="row">
-                         <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
-                              <ul class="list-unstyled list-inline social text-center">
-                                   <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
-                                   <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
-                                   <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
-                                   <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
-                                   <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
-                              </ul>
-                         </div>
-                    </div>
-
-                    <div class="row">
-                         <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center">
-                              <p><u><a href="https://www.agrocraft.com/">AgroCraft Corporation</a></u> is a Multitrading Company for farmers ang traders</p>
-                              <p class="h6">Copy All right Reversed.<a class="text-green ml-2" href="https://www.google.com" target="_blank">Agrotech</a></p>
-                         </div>
-                         </hr>
-                    </div>
-               </div>
-          </section>
-        </div>
+<?php
+include("../Includes/footer2.php");
+?>
 </body>
 
 </html>
