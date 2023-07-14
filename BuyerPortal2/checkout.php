@@ -506,7 +506,7 @@ include("../Functions/functions.php");
 
     <br> <br><br>
     <div class="float-none float-sm-none float-md-none float-lg-right float-xl-right goback ">
-        <a href="cartpage.php"><button type="button" class="btn btn-lg  border border-dark  " style="font-size:22px;color:black;background-color:#FFD700;margin-left:-8%;">
+        <a href="CartPage.php"><button type="button" class="btn btn-lg  border border-dark  " style="font-size:22px;color:black;background-color:#FFD700;margin-left:-8%;">
                 <i class="fas fa-arrow-left"></i> Go Back </button></a>
     </div>
     </div>
