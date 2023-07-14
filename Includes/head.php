@@ -4,6 +4,7 @@ include("var.php");
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#c62368">
 
 <title><?=$app_name?></title>
 
