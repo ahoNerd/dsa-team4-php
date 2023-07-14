@@ -391,7 +391,7 @@ include("../Functions/functions.php");
             <hr style="margin-top:-0.5%">
             <form>
                 <div class=" float-none float-sm-none float-md-none float-lg-right float-xl-rightcheckout mr-0 p-2 mb-5   " style="border-radius:5%;">
-                    <h4 style="font-family: sans-serif"><b>Grand total = Rs. <?php echo $_SESSION['grandtotal']; ?> </b></h4>
+                    <h4 style="font-family: sans-serif"><b>Grand total = Rp. <?php echo $_SESSION['grandtotal']; ?> </b></h4>
                 </div>
                 <div class="input-group mt-2 hey ">
                     <div class="input-group-prepend ">
@@ -409,7 +409,7 @@ include("../Functions/functions.php");
                 <thead>
                     <th>Serial No</th>
                     <th>Name</th>
-                    <th>Total (in Rs)</th>
+                    <th>Total (in Rp)</th>
                     <th>Delivery options</th>
                     <!-- <th>Status</th> -->
                 </thead>
@@ -453,7 +453,7 @@ include("../Functions/functions.php");
                                     <tr>
                                         <td data-label="Sr.No"><?php echo $i + 1; ?></td>
                                         <td data-label="Name"><?php echo $product_title; ?></td>
-                                        <td data-label="Total (in Rs)"><?php echo $subtotal; ?></td>
+                                        <td data-label="Total (in Rp)"><?php echo $subtotal; ?></td>
                                         <?php
                                         array_push($allsubtotal, $subtotal); ?>
                                         <td data-label=">Delivery options">

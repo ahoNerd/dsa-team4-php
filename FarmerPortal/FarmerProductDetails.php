@@ -879,7 +879,7 @@ include("../Functions/functions.php");
                                                        <h1 style='color:goldenrod;padding:10px;'>$product_title</h1>
                                                   </div>
                                              </div>
-                                             <h3  style='color:white;padding:7px;'>Rs. " . $product_price . ".00 per Kg</h3>
+                                             <h3  style='color:white;padding:7px;'>Rp. " . $product_price . ".00 per Kg</h3>
                                              <hr/>
                                              <div class='row'>
                                                   <div class='col-md-12 text-center'>

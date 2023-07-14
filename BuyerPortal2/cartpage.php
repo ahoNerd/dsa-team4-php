@@ -465,7 +465,7 @@ include("../Functions/functions.php");
         <br>
         <div class=" float-none float-sm-none float-md-none float-lg-right float-xl-rightcheckout mr-0 p-2 border border-dark  " style="border-radius:5%;">
 
-            <h2>Grand total = Rs <?php echo $total; ?> </h2>
+            <h2>Grand total = Rp <?php echo $total; ?> </h2>
 
 
 
