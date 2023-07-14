@@ -581,7 +581,7 @@ include("../Functions/functions.php");
 
 
 
-    <div class="container"> <img src="b4.jpeg" class="img-fluid firstimage d-block mx-auto" alt="Responsive image">
+    <div class="container"> <img src="b4.jpg" class="img-fluid firstimage d-block mx-auto" alt="Responsive image">
     </div>
     <br>
     <br>

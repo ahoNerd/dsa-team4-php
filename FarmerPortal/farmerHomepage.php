@@ -961,10 +961,10 @@
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                      <div class="carousel-inner">
                           <div class="carousel-item active">
-                               <img class="d-block w-100 resizing" src="../Images/Homepage/fruitsbasket.jpg" alt="First slide">
+                               <img class="d-block w-100 resizing" src="../Images/Homepage/fruitsbasket.jpg?v=1" alt="First slide">
                           </div>
                           <div class="carousel-item">
-                               <img class="d-block w-100 resizing" src="../Images/Website/farm1.jpeg" alt="Third slide">
+                               <img class="d-block w-100 resizing" src="../Images/Homepage/farm.jpg" alt="Third slide">
                           </div>
                           <div class="carousel-item">
                                <img class="d-block w-100 resizing" src="../Images/Homepage/vegetables.jpg" alt="Second slide">
@@ -1008,7 +1008,7 @@
                      </div>
                      <div class="card">
                           <p class="aligncenter">
-                               <img class="card-img-top image" src="../Images/Homepage/farmer.png" alt="Card image cap" width="250px" height="200px">
+                               <img class="card-img-top image" src="../Images/Homepage/farmer.jpg" alt="Card image cap" width="250px" height="200px">
                           </p>
                           <div class="card-body">
                                <h4 class="card-title font-weight-bold">Farmer Group Formation</h4>
