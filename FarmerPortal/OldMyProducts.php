@@ -540,7 +540,6 @@
           }
 
           /* .productbox img:hover {
-               height: 220px;
                width: 220px;
                border-style: double;
                border: 2px solid;

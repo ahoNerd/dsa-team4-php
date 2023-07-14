@@ -240,8 +240,6 @@ margin-top:2%;
         } */
 
           .images:hover {
-
-               height: 220px;
                box-shadow: 5px 5px 10px grey;
                transition: 0.3s;
           }
