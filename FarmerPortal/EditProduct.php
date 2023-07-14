@@ -84,7 +84,7 @@ $sessphonenumber = $_SESSION['phonenumber'];
                                         $product_delivery = $details['product_delivery'];
                                     }
                                 }
-
+                            }
 
 
                          

@@ -486,28 +486,25 @@
           }
 
           #navbar {
+                padding: 10px;
+                color: green;
+                text-decoration: none;
+                margin: 20px;
+                opacity: 0.75;
+                white-space: nowrap;
+           }
 
-               padding: 20px;
-               color: green;
-               text-decoration: none;
-               margin: 20px;
-               font-size: 25px;
-               padding-top: 10px;
-          }
+           #navbar:hover {
+                opacity: 1;
+           }
 
-          #navbar:hover {
-               padding: 20px;
-               color: green;
-               text-decoration: underline;
-               margin: 15px;
-               font-size: 25px;
-               font-weight: bolder;
-               padding-top: 10px;
-          }
+           #navbar i {
+                padding-right: 1%;
+           }
 
-          #navbar i {
-               padding-right: 1%;
-          }
+           #navbar label {
+                cursor: pointer;
+           }
 
           .time {
                background-color: red;
@@ -974,18 +971,20 @@
                </div>
           </nav>
           <br>
-          <div class="row" style="text-align:center;">
-               <div class="col-md-3 col-sm-12">
-                    <a href="farmerHomepage.php" id="navbar"><i class="fa fa-home" aria-hidden="true"></i><label>Home</label></a>
-               </div>
-               <div class="col-md-3 col-sm-12">
-                    <a href="MyProducts.php" id="navbar"><i class="fa fa-leaf" aria-hidden="true"></i><label>My Products</label></a>
-               </div>
-               <div class="col-md-3 col-sm-12">
-                    <a href="Transactions.php" id="navbar"><i class="fa fa-exchange" aria-hidden="true"></i><label>My Transactions</label></a>
-               </div>
-               <div class="col-md-3 col-sm-12">
-                    <a href="CallCenter.php" id="navbar"><i class="fa fa-phone fa-rotate-vertical" aria-hidden="true"></i><label>Call Centers/SMS</label></a>
+          <div class="container">
+               <div class="row" style="text-align:center;">
+                    <div class="col-md-3 col-sm-12">
+                         <a href="farmerHomepage.php" id="navbar"><i class="fa fa-home" aria-hidden="true"></i><label>Home</label></a>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                         <a href="MyProducts.php" id="navbar"><i class="fa fa-leaf" aria-hidden="true"></i><label>My Products</label></a>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                         <a href="Transactions.php" id="navbar"><i class="fa fa-exchange" aria-hidden="true"></i><label>My Transactions</label></a>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                         <a href="CallCenter.php" id="navbar"><i class="fa fa-phone fa-rotate-vertical" aria-hidden="true"></i><label>Call Centers/SMS</label></a>
+                    </div>
                </div>
           </div>
           <hr>
@@ -993,34 +992,36 @@
 
           <br>
 
-          <div class="card">
-               <h4 class="card-header text-center font-weight-bold">SMS System</h4>
-               <div class="card-body">
-                    <h5 class="card-title text-center font-weight-bold">You Can Upload Sms by using Following Syntax</h5>
-                    <div class="card-deck">
-                         <div class="card">
+          <div class="container">
+               <div class="card">
+                    <h4 class="card-header text-center font-weight-bold">SMS System</h4>
+                    <div class="card-body">
+                         <h5 class="card-title text-center font-weight-bold">You Can Upload Sms by using Following Syntax</h5>
+                         <div class="card-deck">
+                              <div class="card">
 
-                              <div class="card-body">
-                                   <h5 class="card-title font-weight-bold text-center">Insert Product</h5>
-                                   <p class="card-text">*#*,insert,password,product title,product category , product type , product stock ,MRP,Base Price, product keywords , product description ,product delivery</p>
+                                   <div class="card-body">
+                                        <h5 class="card-title font-weight-bold text-center">Insert Product</h5>
+                                        <p class="card-text">*#*,insert,password,product title,product category , product type , product stock ,MRP,Base Price, product keywords , product description ,product delivery</p>
 
+                                   </div>
                               </div>
-                         </div>
-                         <div class="card">
+                              <div class="card">
 
-                              <div class="card-body">
-                                   <h5 class="card-title font-weight-bold text-center">Update Product</h5>
-                                   <p class="card-text">*#*,update,password,product title,product category , product type , product stock ,MRP,Base Price, product keywords , product description ,product delivery</p>
+                                   <div class="card-body">
+                                        <h5 class="card-title font-weight-bold text-center">Update Product</h5>
+                                        <p class="card-text">*#*,update,password,product title,product category , product type , product stock ,MRP,Base Price, product keywords , product description ,product delivery</p>
 
+                                   </div>
                               </div>
-                         </div>
-                         <div class="card">
+                              <div class="card">
 
-                              <div class="card-body">
-                                   <h5 class="card-title font-weight-bold text-center">Delete Product</h5>
-                                   <p class="card-text">*#*,delete,password,product title,MRP</p>
-                                   <p></p>
-                                   <p></p>
+                                   <div class="card-body">
+                                        <h5 class="card-title font-weight-bold text-center">Delete Product</h5>
+                                        <p class="card-text">*#*,delete,password,product title,MRP</p>
+                                        <p></p>
+                                        <p></p>
+                                   </div>
                               </div>
                          </div>
                     </div>
@@ -1029,7 +1030,7 @@
           <br>
           <br>
 
-          <div style="display:block;">
+          <div class="container">
 
                <div class=content_item><label style="font-size :30px; text-shadow: 1px 1px 1px gray;"><b>Call Center , Location's & Langauges</b></label></div>
                <br>
