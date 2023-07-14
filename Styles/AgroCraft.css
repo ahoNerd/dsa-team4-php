@@ -10,24 +10,13 @@ body {
 
 #WELCOME{
 	font-size: 100px;
-	font-family: 'Cormorant Infant', serif;
 	font-weight: bold;
-	font-family: 'Cormorant Infant', serif;
+	font-family: 'Jost', sans-serif;
 	margin-top: 8%;
 	/* padding: 2%; */
 	opacity: 75%;
-	text-shadow: 2px 2px black;
-	}
- 
-#are{
-	font-family: 'Cormorant Infant', serif;
-	font-weight: bold;
-	opacity: 100%;
-	padding-top: 1%;	
-	font-size:85px;
-	text-shadow: 2px 2px black;
 }
-
+ 
 #linebreak{
 	display:block;
 	margin-bottom: 0.5em;
