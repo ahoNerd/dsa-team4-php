@@ -12,23 +12,23 @@ body {
 
 body {
 	display: flex;
-	/* align-items: center;
-	justify-content: center; */
 	flex-direction: column;
 	text-align: center;
-	background-size:100% 100%;
-	background-attachment: fixed;
-	font-family: 'Jost', sans-serif;
+	font-family: 'Jost', sans-serif !important;
 	background: url('/bg.svg') no-repeat center center/cover;
 }
 
-#appName{
-	font-size: 1.25rem;
+a:hover {
+	text-decoration: none !important;
+}
+
+#header1{
+	font-size: 1.5rem;
 	font-weight: bold;
 	color: #fff;
 }
  
-#con1 {
+.con1 {
 	flex-grow: 1;
 	padding: 1rem;
 	display: flex;
@@ -36,34 +36,38 @@ body {
 	align-items: center;
 }
 
-#con2 {
-	background: rgba(0, 0, 0, 0.5);
+.con2 {
+	background: rgba(0, 0, 0, 0.25);
+	backdrop-filter: blur(12px);
 	padding: 2rem;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	border-radius: 0.5rem;
 }
 
-#con3 {
+.con3 {
 	padding-top: 2rem;
 	display: flex;
 	gap: 1rem;
 }
 
-#about {
+#theFooter {
 	padding: 1rem;
+	text-align: center;
 }
 
-.home-btn {
+.my-btn {
 	font-size: 1rem;
 	text-decoration: none;
 	background: #c62368;
 	color: #fff;
 	padding: 0.5rem 1rem;
 	border-radius: 0.5rem;
+	border: none;
 }
 
-.home-btn:hover{
+.my-btn:hover{
 	background: #fff;
-	color: #c62368;
+	color: #c62368 !important;
 }

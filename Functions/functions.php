@@ -15,7 +15,7 @@
             if ($run_query) {
                 while ($row_cat = mysqli_fetch_array($run_query)) {
                     $buyer_name = $row_cat['buyer_name'];
-                    $buyer_name = 'Hello ,' . $buyer_name;
+                    $buyer_name = 'Hello, ' . $buyer_name;
                 }
 
                 // echo @"<label>$buyer_name</label>";
@@ -39,7 +39,7 @@
             if ($run_query) {
                 while ($row_cat = mysqli_fetch_array($run_query)) {
                     $buyer_name = $row_cat['farmer_name'];
-                    $buyer_name = "Hello ," . $buyer_name;
+                    $buyer_name = "Hello, " . $buyer_name;
                     echo "<label style = 'color:white; padding-top:7px;'>$buyer_name</label>";
                 }
             }
