@@ -485,8 +485,6 @@ include("../Functions/functions.php");
 
             <div class="payment">
                 <h4>Payment Options :-
-                    <input type="radio" aria-label="Radio button for following text input" name="payment" value="paytm" required>
-                    <img src="../Images/Website/paytm1.jpg" alt="paytm" class="paytm">
                     <input type="radio" aria-label="Radio button for following text input" name="payment" value="cod" required>
                     <img src="../Images/Website/cod.jpg" alt="paytm" class="cod" style="height:37px">
                 </h4>
